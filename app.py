@@ -4,7 +4,6 @@ import pickle
 import pandas as pd
 
 ld=pd.read_csv('Loan_Defaulters - Copy.csv')
-#ld=pd.read_csv('/workspaces/loan_defaulter/Loan_Defaulters - Copy.csv')
 
 app = Flask(__name__)
 
