@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan status prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+        
+    <h1> Loan Default status prediction</h1>
+    <form action="/predict"  method="post">
+
+        <label for="Loan Amount">Loan Amount</label>
+        <input type="text" id="Loan Amount" name="Loan Amount"><br><br>
+
+        <label for="Funded Amount">Funded Amount</label>
+        <input type="text" id="Funded Amount" name="Funded Amount"><br><br>
+
+        <label for="Funded Amount Investor">Funded Amount Investor</label>
+        <input type="text" id="Funded Amount Investor" name="Funded Amount Investor"><br><br>
+
+        <label for="Term">Term</label>
+        <input type="text" id="Term" name="Term"><br><br>
+
+        <label for="Interest Rate">Interest Rate</label>
+        <input type="text" id="Interest Rate" name="Interest Rate"><br><br>
+
+        <label for="Grade">Grade</label>
+        <input type="text" id="Grade" name="Grade"><br><br>
+
+        <label for="Employment Duration">Employment Duration</label>
+        <input type="text" id="Employment Duration" name="Employment Duration"><br><br>
+
+        <label for="Home Ownership">Home Ownership</label>
+        <input type="text" id="Home Ownership" name="Home Ownership"><br><br>
+
+        <label for="Verification Status">Verification Status</label>
+        <input type="text" id="Verification Status" name="Verification Status"><br><br>
+
+        <label for="Loan Title">Loan Title</label>
+        <input type="text" id="Loan Title" name="Loan Title"><br><br>
+
+        <label for="Debit to Income">Debit to Income</label>
+        <input type="text" id="Debit to Income" name="Debit to Income"><br><br>
+
+        <label for="Delinquency - two years">Delinquency - two years</label>
+        <input type="text" id="Delinquency - two years" name="Delinquency - two years"><br><br>
+
+        <label for="Revolving Balance">Revolving Balance</label>
+        <input type="text" id="Revolving Balance" name="Revolving Balance"><br><br>
+
+        <label for="Revolving Utilities">Revolving Utilities </label>
+        <input type="text" id="Revolving Utilities" name="Revolving Utilities"><br><br>
+
+        <label for="Total Accounts">Total Accounts</label>
+        <input type="text" id="Total Accounts" name="Total Accounts"><br><br>
+
+        <label for="Initial List Status">Initial List Status</label>
+        <input type="text" id="Initial List Status" name="Initial List Status"><br><br>
+
+        <label for="Total Received Interest">Total Received Interest</label>
+        <input type="text" id="Total Received Interest" name="Total Received Interest"><br><br>
+
+        <label for="Total Received Late Fee">Total Received Late Fee</label>
+        <input type="text" id="Total Received Late Fee" name="Total Received Late Fee"><br><br>
+
+        <label for="Recoveries">Recoveries </label>
+        <input type="text" id="Recoveries" name="Recoveries"><br><br>
+
+        <label for="Collection Recovery Fee">Collection Recovery Fee</label>
+        <input type="text" id="Collection Recovery Fee" name="Collection Recovery Fee"><br><br>
+
+        <label for="Collection 12 months Medical">Collection 12 months Medical</label>
+        <input type="text" id="Collection 12 months Medical" name="Collection 12 months Medical"><br><br>
+
+        <label for="Application Type">Application Type</label>
+        <input type="text" id="Application Type" name="Application Type"><br><br>
+
+        <label for="Last week Pay">Last week Pay</label>
+        <input type="text" id="Last week Pay" name="Last week Pay"><br><br>
+
+        <label for="Total Collection Amount">Total Collection Amount</label>
+        <input type="text" id="Total Collection Amount" name="Total Collection Amount"><br><br>
+
+        <label for="Total Current Balance">Total Current Balance</label>
+        <input type="text" id="Total Current Balance" name="Total Current Balance"><br><br>
+
+        <label for="Total Revolving Credit Limit">Total Revolving Credit Limit</label>
+        <input type="text" id="Total Revolving Credit Limit" name="Total Revolving Credit Limit"><br><br>
+
+
+        <button type="submit">Predict</button>
+         
+    </form>
+    
+</body>
+</html>
