@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 import pickle
 import pandas as pd
-import numpy as np
+
 
 ld=pd.read_csv('/workspaces/loan_defaulter/Loan_Defaulters - Copy.csv')
 
