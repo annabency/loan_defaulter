@@ -1,8 +1,10 @@
+
 import pandas as pd
 import numpy as np
 
 
-ld=pd.read_csv('/workspaces/loan_defaulter/Loan_Defaulters - Copy.csv')
+#ld=pd.read_csv('/workspaces/loan_defaulter/Loan_Defaulters - Copy.csv')
+ld=pd.read_csv('Loan_Defaulters - Copy.csv')
 ld=ld.drop(['ID'],axis=1)
 
 ld['Verification Status']=ld['Verification Status'].replace('Source Verified','Verified')
